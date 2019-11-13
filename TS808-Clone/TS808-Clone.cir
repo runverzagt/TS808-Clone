@@ -1,0 +1,46 @@
+.title KiCad schematic
+U1 Net-_C6-Pad1_ Net-_C5-Pad1_ Net-_C4-Pad1_ Net-_C8-Pad2_ Net-_R13-Pad2_ Net-_C9-Pad1_ RC4558
+D1 VS GNDREF 1N4148
+D4 Net-_C6-Pad1_ Net-_C5-Pad1_ 1N4148
+D3 Net-_C5-Pad1_ Net-_C6-Pad1_ 1N4148
+Q2 Net-_Q2-Pad1_ Net-_C10-Pad2_ VS 2N4401-AP
+R1 Net-_C1-Pad2_ GNDREF 1M5
+R3 Net-_Q1-Pad2_ Net-_C1-Pad1_ 1k
+R2 Net-_D2-Pad2_ VS 1k
+R6 Net-_Q1-Pad2_ Net-_C3-Pad1_ 510k
+R5 Net-_C3-Pad1_ GNDREF 10k
+R4 Net-_C3-Pad1_ VS 10k
+R8 Net-_C5-Pad2_ Net-_C3-Pad1_ 4k7
+R10 Net-_C5-Pad1_ Net-_R10-Pad2_ 511k
+R9 Net-_C3-Pad1_ Net-_C4-Pad1_ 10k
+R7 GNDREF Net-_C4-Pad2_ 10k
+R11 Net-_C8-Pad2_ Net-_C6-Pad1_ 1k
+R13 Net-_C9-Pad1_ Net-_R13-Pad2_ 1k
+R14 GNDREF Net-_C7-Pad2_ 220
+R15 Net-_R15-Pad1_ Net-_C9-Pad2_ R
+R17 Net-_C3-Pad1_ Net-_C10-Pad2_ R
+R19 GNDREF Net-_Q2-Pad1_ R
+R18 GNDREF Net-_C11-Pad2_ R
+R16 Net-_Q2-Pad1_ Net-_C11-Pad1_ R
+C2 VS GNDREF 100uf
+C3 Net-_C3-Pad1_ GNDREF 47uf
+C11 Net-_C11-Pad1_ Net-_C11-Pad2_ CP1
+C1 Net-_C1-Pad1_ Net-_C1-Pad2_ 0.022uf
+C5 Net-_C5-Pad1_ Net-_C5-Pad2_ 0.047uf
+C6 Net-_C6-Pad1_ Net-_C5-Pad1_ 51pf
+C8 GNDREF Net-_C8-Pad2_ 0.22uf
+R12 Net-_C3-Pad1_ Net-_C8-Pad2_ 10k
+C7 Net-_C7-Pad1_ Net-_C7-Pad2_ 0.22uf
+C9 Net-_C9-Pad1_ Net-_C9-Pad2_ C
+C10 Net-_C10-Pad1_ Net-_C10-Pad2_ C
+D2 Net-_D2-Pad1_ Net-_D2-Pad2_ LED
+Q1 Net-_C4-Pad2_ Net-_Q1-Pad2_ VS 2N4401-AP
+RV1 Net-_R10-Pad2_ Net-_C6-Pad1_ NC_01 500k
+RV2 Net-_R13-Pad2_ Net-_C7-Pad1_ Net-_C8-Pad2_ 20k
+RV3 Net-_R15-Pad1_ Net-_C10-Pad1_ Net-_C3-Pad1_ R_POT
+C4 Net-_C4-Pad1_ Net-_C4-Pad2_ 1uf
+J2 GNDREF VS Barrel_Jack
+J1 GNDREF Net-_J1-PadT_ AudioJack2
+J3 GNDREF Net-_J3-PadT_ AudioJack2
+S1 Net-_D2-Pad1_ GNDREF Net-_S1-Pad3_ Net-_J1-PadT_ Net-_C1-Pad2_ Net-_S1-Pad3_ Net-_C11-Pad2_ Net-_J3-PadT_ Net-_J1-PadT_ Switch.3PDT.1
+.end
