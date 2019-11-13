@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name TS808-Clone)(type Legacy)(uri ${KIPRJMOD}/TS808-Clone.lib)(options "")(descr ""))
+  (lib (name TS808-Clone-rescue)(type Legacy)(uri ${KIPRJMOD}/TS808-Clone-rescue.lib)(options "")(descr ""))
 )
