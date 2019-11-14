@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>Z:\Documents\KiCad\TS808 Clone\TS808-Clone\TS808-Clone.sch</source>
+    <date>11/13/2019 6:09:11 PM</date>
+    <tool>Eeschema (5.1.2)-2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Ibanez TS-808 Clone</title>
+        <company/>
+        <rev>v01</rev>
+        <date>2019-08-03</date>
+        <source>TS808-Clone.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value="http://www.generalguitargadgets.com"/>
+        <comment number="4" value="Inital  design copied from"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>RC4558</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/rc4558.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="RC4558" description="Dual General Purpose, Operational Amplifier, DIP-8/SOIC-8/SSOP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D45E498</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>digikey-footprints:Diode_DO-35_P10mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Digi-Key_PN">1N4148FS-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4148</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4148" description="DIODE GEN PURP 100V 200MA DO35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D46A900</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>digikey-footprints:Diode_DO-35_P10mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Digi-Key_PN">1N4148FS-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4148</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4148" description="DIODE GEN PURP 100V 200MA DO35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D46D50E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>digikey-footprints:Diode_DO-35_P10mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Digi-Key_PN">1N4148FS-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4148</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4148" description="DIODE GEN PURP 100V 200MA DO35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D470632</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N4401-AP</value>
+      <footprint>digikey-footprints:TO-92-3_Formed_Leads</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593</field>
+        <field name="Description">TRANS NPN 40V TO92</field>
+        <field name="Digi-Key_PN">2N4401-APCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">2N4401-AP</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-Bipolar-BJT-Single" part="2N4401-AP" description="TRANS NPN 40V TO92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D472C75</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M5</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4790AC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D47D677</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D47DD83</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>510k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D47E8A8</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D47F112</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D47FB21</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D47FEC3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>511k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D480934</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D480FF0</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4819D5</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D481ED2</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D48341B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D483A19</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D483D38</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>510k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D485349</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D485E2F</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D48634D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D486B89</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D489EC9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D48A9F3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D48B042</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.022uf</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D48CD26</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.047uf</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D48FBA3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>51pf</value>
+      <footprint>TS808-Clone:C_Rect_L5.0mm_W3.2mm_P2.50mm</footprint>
+      <datasheet>http://www.kemet.com/Lists/ProductCatalog/Attachments/597/KEM_C1049_GOLDMAX_C0G.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D491A14</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.22uf</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4926AF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D493EA0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.22uf</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D494314</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uf</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D494EAC</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uf</value>
+      <footprint>Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D495EB5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D49A6EB</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N4401-AP</value>
+      <footprint>digikey-footprints:TO-92-3_Formed_Leads</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593</field>
+        <field name="Description">TRANS NPN 40V TO92</field>
+        <field name="Digi-Key_PN">2N4401-APCT-ND</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="MPN">2N4401-AP</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-Bipolar-BJT-Single" part="2N4401-AP" description="TRANS NPN 40V TO92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4A5B8B</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>500k</value>
+      <footprint>Potentiometer_THT:Potentiometer_TT_P0915N</footprint>
+      <datasheet>https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4B20EE</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>20k</value>
+      <footprint>Potentiometer_THT:Potentiometer_TT_P0915N</footprint>
+      <datasheet>https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4B3695</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>100k</value>
+      <footprint>Potentiometer_THT:Potentiometer_TT_P0915N</footprint>
+      <datasheet>https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4B8D9D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uf</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4C47BF</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Barrel_Jack</value>
+      <footprint>TS808-Clone:BarrelJack_Horiz_55X21_THT</footprint>
+      <datasheet>https://tensility.s3.amazonaws.com/uploads/pdffiles/54-00129.pdf?X-Amz-Expires=600&amp;X-Amz-Date=20191110T170226Z&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIS2S4WRDQDSWDRZQ%2F20191110%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=519f891ba518ff3ef4060e4b80a453f0f5d341d2275b7b4738215551ab986082</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D510539</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack2</value>
+      <footprint>TS808-Clone:Headphone_Jack_6.35mm_RA49B11</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/ra49b_Series_cd.pdf</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D515560</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>AudioJack2</value>
+      <footprint>TS808-Clone:Headphone_Jack_6.35mm_RA49B11</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/ra49b_Series_cd.pdf</datasheet>
+      <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5227A5</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Switch.3PDT.1</value>
+      <footprint>TS808-Clone:Switch_3P3T_Footswitch_PC_THT</footprint>
+      <datasheet>https://cdn.shopify.com/s/files/1/1353/1185/files/4SFS3PDT-LS_PR_LSP_MSP_LSAU_Data_Sheet.pdf?12867592396497858423</datasheet>
+      <libsource lib="TS808-Clone" part="Switch.3PDT.1" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5604AD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack2">
+      <description>Audio Jack, 2 Poles (Mono / TS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TS808-Clone" part="Switch.3PDT.1">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Switch.3PDT.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
+        <pin num="5" name="E" type="passive"/>
+        <pin num="6" name="F" type="passive"/>
+        <pin num="7" name="G" type="passive"/>
+        <pin num="8" name="H" type="passive"/>
+        <pin num="9" name="I" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Diodes-Rectifiers-Single" part="1N4148">
+      <description>DIODE GEN PURP 100V 200MA DO35</description>
+      <docs>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">digikey-footprints:Diode_DO-35_P10mm</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="Digi-Key_PN">1N4148FS-ND</field>
+        <field name="MPN">1N4148</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Transistors-Bipolar-BJT-Single" part="2N4401-AP">
+      <description>TRANS NPN 40V TO92</description>
+      <docs>https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N4401-AP</field>
+        <field name="Footprint">digikey-footprints:TO-92-3_Formed_Leads</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf</field>
+        <field name="Digi-Key_PN">2N4401-APCT-ND</field>
+        <field name="MPN">2N4401-AP</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/2N4401(TO-92).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/2N4401-AP/2N4401-APCT-ND/950593</field>
+        <field name="Description">TRANS NPN 40V TO92</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>E:/Documents/KiCad/KiCad Official/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>E:/Documents/KiCad/KiCad Official/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:/Documents/KiCad/KiCad Official/Device.lib</uri>
+    </library>
+    <library logical="TS808-Clone">
+      <uri>Z:\Documents\KiCad\TS808 Clone\TS808-Clone/TS808-Clone.lib</uri>
+    </library>
+    <library logical="dk_Diodes-Rectifiers-Single">
+      <uri>E:/Documents/KiCad/Digikey/digikey-symbols/dk_Diodes-Rectifiers-Single.lib</uri>
+    </library>
+    <library logical="dk_Transistors-Bipolar-BJT-Single">
+      <uri>E:/Documents/KiCad/Digikey/digikey-symbols/dk_Transistors-Bipolar-BJT-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDREF">
+      <node ref="S1" pin="5"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="S"/>
+      <node ref="J3" pin="S"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="R3" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J1-PadT)">
+      <node ref="S1" pin="9"/>
+      <node ref="J1" pin="T"/>
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="6" name="Net-(J3-PadT)">
+      <node ref="J3" pin="T"/>
+      <node ref="S1" pin="8"/>
+    </net>
+    <net code="7" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2"/>
+      <node ref="S1" pin="7"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R13-Pad2)">
+      <node ref="RV2" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="10" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="RV3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="13" name="Net-(C7-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R11" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad2)">
+      <node ref="R14" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C6-Pad1)">
+      <node ref="RV2" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="16" name="VS">
+      <node ref="C9" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C11-Pad1)">
+      <node ref="R16" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="21" name="Net-(RV1-Pad3)">
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="22" name="Net-(C10-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="24" name="Net-(Q1-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C3-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C3-Pad2)">
+      <node ref="Q1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="28" name="Net-(R10-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C2-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C4-Pad1)">
+      <node ref="D3" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+  </nets>
+</export>

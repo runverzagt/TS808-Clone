@@ -566,7 +566,7 @@ L Device:R_POT RV1
 U 1 1 5D4B20EE
 P 5450 1900
 F 0 "RV1" V 5335 1900 50  0000 C CNN
-F 1 "500k" V 5244 1900 50  0000 C CNN
+F 1 "500k LOG" V 5244 1900 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_TT_P0915N" H 5450 1900 50  0001 C CNN
 F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf" H 5450 1900 50  0001 C CNN
 	1    5450 1900
@@ -577,7 +577,7 @@ L Device:R_POT RV2
 U 1 1 5D4B3695
 P 6650 3050
 F 0 "RV2" V 6443 3050 50  0000 C CNN
-F 1 "20k" V 6534 3050 50  0000 C CNN
+F 1 "20k LIN" V 6534 3050 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_TT_P0915N" H 6650 3050 50  0001 C CNN
 F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf" H 6650 3050 50  0001 C CNN
 	1    6650 3050
@@ -588,7 +588,7 @@ L Device:R_POT RV3
 U 1 1 5D4B8D9D
 P 8650 2850
 F 0 "RV3" H 8581 2896 50  0000 R CNN
-F 1 "100k" H 8581 2805 50  0000 R CNN
+F 1 "100k LOG" H 8581 2805 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_TT_P0915N" H 8650 2850 50  0001 C CNN
 F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf" H 8650 2850 50  0001 C CNN
 	1    8650 2850
