@@ -37,7 +37,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/rc4558.pdf" H 7250 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Diodes-Rectifiers-Single:1N4148 D4
+L TS808-Clone-rescue:1N4148-dk_Diodes-Rectifiers-Single D4
 U 1 1 5D46A900
 P 8200 1350
 F 0 "D4" V 8204 1438 50  0000 L CNN
@@ -57,7 +57,7 @@ F 12 "Active" H 8400 2550 60  0001 L CNN "Status"
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_Diodes-Rectifiers-Single:1N4148 D3
+L TS808-Clone-rescue:1N4148-dk_Diodes-Rectifiers-Single D3
 U 1 1 5D46D50E
 P 5500 2950
 F 0 "D3" H 5550 2735 50  0000 C CNN
@@ -77,7 +77,7 @@ F 12 "Active" H 5700 4150 60  0001 L CNN "Status"
 	-1   0    0    1   
 $EndComp
 $Comp
-L dk_Diodes-Rectifiers-Single:1N4148 D2
+L TS808-Clone-rescue:1N4148-dk_Diodes-Rectifiers-Single D2
 U 1 1 5D470632
 P 5400 3350
 F 0 "D2" H 5450 3575 50  0000 C CNN
@@ -97,7 +97,7 @@ F 12 "Active" H 5600 4550 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N4401-AP Q2
+L TS808-Clone-rescue:2N4401-AP-dk_Transistors-Bipolar-BJT-Single Q2
 U 1 1 5D472C75
 P 9900 2850
 F 0 "Q2" H 10088 2903 60  0000 L CNN
@@ -492,7 +492,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2500 2950 2650
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N4401-AP Q1
+L TS808-Clone-rescue:2N4401-AP-dk_Transistors-Bipolar-BJT-Single Q1
 U 1 1 5D4A5B8B
 P 3950 3550
 F 0 "Q1" H 4138 3603 60  0000 L CNN
@@ -567,8 +567,8 @@ U 1 1 5D4B20EE
 P 5450 1900
 F 0 "RV1" V 5335 1900 50  0000 C CNN
 F 1 "500k LOG" V 5244 1900 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_TT_P0915N" H 5450 1900 50  0001 C CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf" H 5450 1900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5450 1900 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/ptv09-777818.pdf" H 5450 1900 50  0001 C CNN
 	1    5450 1900
 	0    -1   -1   0   
 $EndComp
@@ -578,8 +578,8 @@ U 1 1 5D4B3695
 P 6650 3050
 F 0 "RV2" V 6443 3050 50  0000 C CNN
 F 1 "20k LIN" V 6534 3050 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_TT_P0915N" H 6650 3050 50  0001 C CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf" H 6650 3050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6650 3050 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/ptv09-777818.pdf" H 6650 3050 50  0001 C CNN
 	1    6650 3050
 	0    1    1    0   
 $EndComp
@@ -589,8 +589,8 @@ U 1 1 5D4B8D9D
 P 8650 2850
 F 0 "RV3" H 8581 2896 50  0000 R CNN
 F 1 "100k LOG" H 8581 2805 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_TT_P0915N" H 8650 2850 50  0001 C CNN
-F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Potentiometers/Datasheets/P09x.pdf" H 8650 2850 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8650 2850 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/54/ptv09-777818.pdf" H 8650 2850 50  0001 C CNN
 	1    8650 2850
 	1    0    0    -1  
 $EndComp
