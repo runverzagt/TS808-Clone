@@ -441,7 +441,7 @@ U 1 1 5D49A6EB
 P 3600 5100
 F 0 "D1" H 3593 5316 50  0000 C CNN
 F 1 "LED" H 3593 5225 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 3600 5100 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3600 5100 50  0001 C CNN
 F 3 "~" H 3600 5100 50  0001 C CNN
 	1    3600 5100
 	-1   0    0    1   
@@ -567,7 +567,7 @@ U 1 1 5D4B20EE
 P 5450 1900
 F 0 "RV1" V 5335 1900 50  0000 C CNN
 F 1 "500k LOG" V 5244 1900 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 5450 1900 50  0001 C CNN
+F 2 "TS808-Clone:Potentiometer_BournesProAudio_THT_vert" H 5450 1900 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/ptv09-777818.pdf" H 5450 1900 50  0001 C CNN
 	1    5450 1900
 	0    -1   -1   0   
@@ -578,7 +578,7 @@ U 1 1 5D4B3695
 P 6650 3050
 F 0 "RV2" V 6443 3050 50  0000 C CNN
 F 1 "20k LIN" V 6534 3050 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 6650 3050 50  0001 C CNN
+F 2 "TS808-Clone:Potentiometer_BournesProAudio_THT_vert" H 6650 3050 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/ptv09-777818.pdf" H 6650 3050 50  0001 C CNN
 	1    6650 3050
 	0    1    1    0   
@@ -589,7 +589,7 @@ U 1 1 5D4B8D9D
 P 8650 2850
 F 0 "RV3" H 8581 2896 50  0000 R CNN
 F 1 "100k LOG" H 8581 2805 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8650 2850 50  0001 C CNN
+F 2 "TS808-Clone:Potentiometer_BournesProAudio_THT_vert" H 8650 2850 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/54/ptv09-777818.pdf" H 8650 2850 50  0001 C CNN
 	1    8650 2850
 	1    0    0    -1  
@@ -829,8 +829,8 @@ U 3 1 5D5604AD
 P 9900 4250
 F 0 "S1" H 9900 4535 50  0000 C CNN
 F 1 "Switch.3PDT.1" H 9900 4444 50  0000 C CNN
-F 2 "TS808-Clone:Switch_3P3T_Footswitch_PC_THT" H 9900 4250 50  0001 C CNN
-F 3 "https://cdn.shopify.com/s/files/1/1353/1185/files/4SFS3PDT-LS_PR_LSP_MSP_LSAU_Data_Sheet.pdf?12867592396497858423" H 9900 4250 50  0001 C CNN
+F 2 "TS808-Clone:Switch_3PDT_ESwitch_300_P1J1_VS2" H 9900 4250 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/140/300-346108.pdf" H 9900 4250 50  0001 C CNN
 	3    9900 4250
 	-1   0    0    -1  
 $EndComp
@@ -840,8 +840,8 @@ U 2 1 5D567A94
 P 4350 5200
 F 0 "S1" H 4350 5485 50  0000 C CNN
 F 1 "Switch.3PDT.1" H 4350 5394 50  0000 C CNN
-F 2 "TS808-Clone:Switch_3P3T_Footswitch_PC_THT" H 4350 5200 50  0001 C CNN
-F 3 "https://cdn.shopify.com/s/files/1/1353/1185/files/4SFS3PDT-LS_PR_LSP_MSP_LSAU_Data_Sheet.pdf?12867592396497858423" H 4350 5200 50  0001 C CNN
+F 2 "TS808-Clone:Switch_3PDT_ESwitch_300_P1J1_VS2" H 4350 5200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/140/300-346108.pdf" H 4350 5200 50  0001 C CNN
 	2    4350 5200
 	-1   0    0    -1  
 $EndComp
@@ -851,8 +851,8 @@ U 1 1 5D5749FC
 P 2150 3400
 F 0 "S1" H 2150 3685 50  0000 C CNN
 F 1 "Switch.3PDT.1" H 2150 3594 50  0000 C CNN
-F 2 "TS808-Clone:Switch_3P3T_Footswitch_PC_THT" H 2150 3400 50  0001 C CNN
-F 3 "https://cdn.shopify.com/s/files/1/1353/1185/files/4SFS3PDT-LS_PR_LSP_MSP_LSAU_Data_Sheet.pdf?12867592396497858423" H 2150 3400 50  0001 C CNN
+F 2 "TS808-Clone:Switch_3PDT_ESwitch_300_P1J1_VS2" H 2150 3400 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/140/300-346108.pdf" H 2150 3400 50  0001 C CNN
 	1    2150 3400
 	-1   0    0    -1  
 $EndComp

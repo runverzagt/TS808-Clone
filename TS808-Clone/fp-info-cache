@@ -1,4 +1,4 @@
-16713277213812827
+16716428041338234
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74207,6 +74207,13 @@ Headphone_Jack_6.35mm_RA49B11
 2
 2
 TS808-Clone
+Potentiometer_BournesProAudio_THT_vert
+
+
+0
+3
+3
+TS808-Clone
 Potentiometer_THT_TTE_P231
 
 
@@ -74215,6 +74222,13 @@ Potentiometer_THT_TTE_P231
 1
 TS808-Clone
 Switch_3P3T_Footswitch_PC_THT
+
+
+0
+9
+9
+TS808-Clone
+Switch_3PDT_ESwitch_300_P1J1_VS2
 
 
 0
